@@ -21,9 +21,9 @@ def load_config(
 class SparkJobConfig:
     def __init__(
             self,
-            endpoint_url: str = "https://storage.yandexcloud.net",
-            bucket: str = "mle-airflow",
-            key: str = "base_spark_job_configs/template.yaml",
+            endpoint_url: str = "",
+            bucket: str = "",
+            key: str = "",
             s3_conf: bool = True,
     ):
 
