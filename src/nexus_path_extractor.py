@@ -28,7 +28,7 @@ def get_nexus_path(image):
                 "sort": "version"
             }
 
-            response = requests.get("https://nexus.bdl.io/service/rest/v1/search",
+            response = requests.get("",
                                     params=request_params,
                                     timeout=60,
                                     verify=Variable.get("ROOT_SERT_PATH"))
